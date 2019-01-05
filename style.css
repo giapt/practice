@@ -1,53 +1,72 @@
-.mdl-layout{
-    width: 100%;
-}
-.android-header{
-    width: 10%;
-    /* float: left; */
-    height: 1000px;
-}
-.android-body{
-    /* width: 50%;
-    float: left;
-    height: 1000px;  */
-    position:relative;
-}
-.android-content{
-    /* display: none; */
-    
-    position: absolute;
-    width: 80%; 
-    top: 0px;
-    left: 15%;
-    right: 5px;
-    float:right; 
-    height: 1000px;
-}
-.mdl-layout__header-row{
+.wrap{
     width:100%;
-    position: relative;
+    font-family: Arial;
 }
-.android-title{
-    display:none;
-    position: absolute;
-    left:0px;
+.menu{
+    width:10%;
     float: left;
-    height: 20px;
+    margin: left;
+    height: 1000px;
+    background-color: #232014;
 }
-.android-header-spacer{
-    /* position: absolute; */
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul li {
+    margin: 0px;
+    list-style: none;
+    border-bottom: #ffffff solid 1px;
+    padding-bottom:15px;
+    padding-top: 15px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left:10px;
+}
+.content{
+    width:85%;
     float: left;
-    left: 0px;
+    /* background-color: black; */
+    height: 1000px;
 }
-.android-search-box{
-    position: absolute;
-    left: 25px;
-    /* padding: 0px; */
+.content-header{
+    width:900px;
+    margin:100px 100px 100px 150px;
+    background-color: #dddddd;
+    /* padding:  */
 }
-.android-navigation{
-    display: block;
-    position: absolute;
-    top:50px;
-    left:5%;
-    float: left;
+.content-header-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:30px;
+}
+.content-header-content{
+    text-align: center;
+    padding: 20px 150px 40px 150px;
+}
+.content-list{
+    width:900px;
+    margin: 0px 100px 0px 150px;
+}
+.box{
+    float:left;
+    width: 30%;
+    margin-right:30px;
+}
+.box h3{
+    /* text-align: center; */
+}
+.box img{
+    width:100px;
+    float:left;
+    padding-right:5px;
+    padding-bottom:5px;
+}
+.box-content{
+    /* padding-right:5px; */
+    font-size:15px;
 }
