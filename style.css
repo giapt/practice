@@ -1,0 +1,53 @@
+.mdl-layout{
+    width: 100%;
+}
+.android-header{
+    width: 10%;
+    /* float: left; */
+    height: 1000px;
+}
+.android-body{
+    /* width: 50%;
+    float: left;
+    height: 1000px;  */
+    position:relative;
+}
+.android-content{
+    /* display: none; */
+    
+    position: absolute;
+    width: 80%; 
+    top: 0px;
+    left: 15%;
+    right: 5px;
+    float:right; 
+    height: 1000px;
+}
+.mdl-layout__header-row{
+    width:100%;
+    position: relative;
+}
+.android-title{
+    display:none;
+    position: absolute;
+    left:0px;
+    float: left;
+    height: 20px;
+}
+.android-header-spacer{
+    /* position: absolute; */
+    float: left;
+    left: 0px;
+}
+.android-search-box{
+    position: absolute;
+    left: 25px;
+    /* padding: 0px; */
+}
+.android-navigation{
+    display: block;
+    position: absolute;
+    top:50px;
+    left:5%;
+    float: left;
+}
